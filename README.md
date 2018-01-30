@@ -16,9 +16,7 @@ Then include it in your `.babelrc`:
 
 ```json
 {
-  "plugins": [
-    "object-styles-to-template"
-  ]
+  "plugins": ["object-styles-to-template"]
 }
 ```
 
@@ -30,11 +28,11 @@ When you write the following:
 const container = css({
   flex: 1,
   padding: 10,
-  backgroundColor: 'orange',
+  backgroundColor: "orange",
   color: colors.white,
 
-  '&:hover': {
-    backgroundColor: 'tomato',
+  "&:hover": {
+    backgroundColor: "tomato"
   }
 });
 ```
